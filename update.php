@@ -24,22 +24,19 @@
         </tr>
 
         <tr>
-                <td>Jenis Kelamin</td>
-                <td>
-                    <p>
-                        <label>
-                            <input type="radio" name="jns_kelamin" value="<?php echo $row['jns_kelamin']; ?>" id="jns_kelamin_0" checked="checked">
-                            Laki-laki
-                        </label>
-                        <br>
-
-                        <label>
-                            <input type="radio" name="jns_kelamin" value="<?php echo $row ['jns_kelamin']; ?>" id="jns_kelamin_1" checked="checked">
-                            Perempuan
-                        </label>
-                        <br>
-                    </p>
-                </td>
+            <td>Jenis Kelamin</td>
+                <td><p>
+                    <label>
+                        <input type="radio" name="jns_kelamin" value="Laki-laki" <?php if($row['jns_kelamin'] == "Laki-laki") {
+                            echo "checked";}; ?> id="jns_kelamin_0"> Laki-laki
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="jns_kelamin" value="Perempuan" <?php if($row['jns_kelamin'] == "Perempuan") {
+                            echo "checked";}; ?> id="jns_kelamin_1"> Perempuan
+                    </label>
+                    <br>
+                </p></td>
         </tr>
 
         <tr>
