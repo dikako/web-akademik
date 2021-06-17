@@ -1,5 +1,5 @@
 <?php
-    include "config/koneksi.php";
+    include "../../config/koneksi.php";
     $nim = $_GET['nim'];
     $query = mysqli_query($koneksi, "select * from mahasiswa where nim='$nim'");
 ?>
@@ -7,7 +7,7 @@
 
 <h1>Form Update Data Mahasiswa</h1>
 <br>
-<form action="proses_update.php" method="post">
+<form action="../../page/mahasiswa/simpan.php" method="post">
     <table border="1">
         <?php
             while($row = mysqli_fetch_array($query)) {
@@ -62,7 +62,7 @@
         </tr>
 
         <tr>
-                <td><input type="submit" value="Simpan" name="proses_update"></td>
+                <td><input type="submit" value="Simpan" name="simpan"></td>
         </tr>
 
         <?php

@@ -11,7 +11,7 @@
     <center>
         <h1>Form Input Data Mahasiswa</h1>
         <br>
-        <form action="proses.php" method="POST">
+        <form action="../../page/mahasiswa/proses.php" method="POST">
             <table border="1">
                 <tr>
                     <td>NIM</td>
@@ -85,6 +85,6 @@
         
             </table>
         </form>  
-        <a href="index.php">Home</a>     
+        <a href="../../index.php">Home</a>     
 </body>
 </html>

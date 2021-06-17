@@ -1,5 +1,5 @@
 <?php
-    include "config/koneksi.php";
+    include "../../config/koneksi.php";
 
     $nip = $_POST['nip'];
     $nama = $_POST['nama'];
@@ -13,7 +13,7 @@
 
     if($query) {
         echo "<center>Berhasil input data ke database </center>";
-        ?><center><a href="tabel_dosen.php">Lihat data di Tabel</a></center><?php
+        ?><center><a href="../../page/dosen/tabel.php">Lihat data di Tabel</a></center><?php
     } else {
         echo "Gagal input data";
         echo mysqli_error($koneksi);

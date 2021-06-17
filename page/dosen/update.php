@@ -1,12 +1,12 @@
 <?php 
-    include "config/koneksi.php";
+    include "../../config/koneksi.php";
 
     $nip = $_GET['nip'];
     $query = mysqli_query($koneksi, "select * from dosen where nip='$nip'");
 ?>
 <center>
 <h1>Form Update Data Dosen</h1>
-<form action="simpan_dosen.php" method="post">
+<form action="../../page/dosen/simpan.php" method="post">
     <table border="1">
         <?php
             while($row = mysqli_fetch_array($query)) {

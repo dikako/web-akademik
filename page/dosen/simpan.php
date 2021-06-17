@@ -1,5 +1,5 @@
 <?php
-    include "config/koneksi.php";
+    include "../../config/koneksi.php";
 
     $nip = $_POST['nip'];
     $nama = $_POST['nama'];
@@ -12,7 +12,7 @@
     $query = mysqli_query($koneksi, "update dosen set nip='$nip', nama='$nama', jns_kelamin='$jns_kelamin', alamat='$alamat', tempat_lahir='$tempat_lahir', tgl_lahir='$tgl_lahir', no_hp='$no_hp'");
     if($query) {
         echo "<center>Berhasil update data ke database</center>";
-        ?><center><a href="tabel_dosen.php">Lihat data di tabel</a></center><?php
+        ?><center><a href="../../page/dosen/tabel.php">Lihat data di tabel</a></center><?php
     } else {
         echo "Gagal update data";
         echo mysqli_error($koneksi);

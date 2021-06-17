@@ -10,7 +10,7 @@
 
     <center>
         <h1>Form Input Data Dosen</h1>
-        <form action="proses_dosen.php" method="POST">
+        <form action="../../page/dosen/proses.php" method="POST">
             <table border="1">
                 <tr>
                     <td>NIP</td>
@@ -65,7 +65,7 @@
             </table>
         </form>
 
-        <a href="index.php">Home</a>
+        <a href="../../index.php">Home</a>
     </center>
 </body>
 </html>

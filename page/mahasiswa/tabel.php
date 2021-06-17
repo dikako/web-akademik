@@ -1,5 +1,5 @@
 <?php
-    include "config/koneksi.php";
+    include "../../config/koneksi.php";
     $query = mysqli_query($koneksi, "select * from mahasiswa");
     $jumlah = mysqli_num_rows($query);
     $c = 0;
@@ -45,13 +45,13 @@
                     <?php echo $row['tgl_lahir']; ?>
                 </td>
                 <td>
-                    <a href="delete.php?nim=<?php echo $row['nim']; ?>" onclick="return confirm('Apakah anda yakin menghapus?')">Delete</a>
-                    <a href="update.php?nim=<?php echo $row['nim']; ?>">Update</a>
+                    <a href="../../page/mahasiswa/delete.php?nim=<?php echo $row['nim']; ?>" onclick="return confirm('Apakah anda yakin menghapus?')">Delete</a>
+                    <a href="../../page/mahasiswa/update.php?nim=<?php echo $row['nim']; ?>">Update</a>
                 </td>
             </tr>
             <?php
         }
     ?>   
 </table> <br>
-<a href="form.php">Input data form</a>
+<a href="../../page/mahasiswa/form.php">Input data form</a>
 </center>

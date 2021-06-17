@@ -24,19 +24,19 @@
                     </td>
 
                     <td>
-                        <a href="form.php">Mahasiswa</a>
+                        <a href="page/mahasiswa/form.php">Mahasiswa</a>
                     </td>
 
                     <td>
-                        <a href="form_dosen.php">Dosen</a>
+                        <a href="page/dosen/form.php">Dosen</a>
                     </td>
 
                     <td>
-                        <a href="form_kelas.php">Kelas</a>
+                        <a href="page/kelas/form.php">Kelas</a>
                     </td>
 
                     <td>
-                        <a href="form_matakuliah">Mata Kuliah</a>
+                        <a href="page/matakuliah/form.php">Mata Kuliah</a>
                     </td>
 
                     <td>
