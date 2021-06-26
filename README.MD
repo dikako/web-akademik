@@ -1,5 +1,13 @@
 ## Output
 
+### Tugas 13
+https://user-images.githubusercontent.com/49613928/123501117-d7302200-d66c-11eb-8210-7ca4a762fd33.mp4
+
+
+#### Tugas 12
+https://user-images.githubusercontent.com/49613928/123501102-bff13480-d66c-11eb-8bdb-60cbfc48284f.mp4
+
+
 ### Tugas 11
 https://user-images.githubusercontent.com/49613928/121636813-ac619d80-cab2-11eb-94ac-e678f078720b.mp4
 
