@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    if(isset($_SESSION['username'])) {
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,6 +90,19 @@
         
             </table>
         </form>  
-        <a href="../../index.php">Home</a>     
+       
+        <a href="../../index.php">Home</a>
+        <a href="../../page/admin/logout.php">Logout</a>
+    </center>
 </body>
 </html>
+<?php
+    } else {
+?>
+<center>
+    <h4>Anda Belum Login. Silahkan </h4>        
+    <a href="../../page/admin/form.php?page=1">Login</a>
+</center>
+<?php
+    }
+?>

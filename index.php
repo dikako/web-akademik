@@ -42,13 +42,13 @@
                     <td>
                         <?php
                             session_start();
-                            if (isset($_SESSION['LOGIN'])) {
+                            if (isset($_SESSION['username'])) {
                                 ?>
-                                <a href="logout.php">Logout</a>
+                                <a href="page/admin/logout.php">Logout</a>
                                 <?php
                             } else {
                                 ?>
-                                <a href="admin/form_admin.php?page=1">Login</a>
+                                <a href="page/admin/form.php?page=1">Login</a>
                                 <?php
                             }
                             ?>
