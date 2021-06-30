@@ -1,5 +1,9 @@
 ## Demo Tugas Kuliah Pemrograman Lanjut
 
+### Tugas 14
+https://user-images.githubusercontent.com/49613928/123964529-b43f9e00-d9dd-11eb-9f7b-af1519db22f1.mp4
+
+
 ### Tugas 13
 https://user-images.githubusercontent.com/49613928/123501117-d7302200-d66c-11eb-8210-7ca4a762fd33.mp4
 
