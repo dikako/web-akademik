@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,12 +74,12 @@
             <form id="cari" name="cari" method="POST" action="cari.php">
                 <h2>Cari Data Mahasiswa</h2>
                 <select name="point">
-                    <option value="judul">NIM</option>
-                    <option value="pengarang">Nama</option>
+                    <option value="nim">NIM</option>
+                    <option value="nama">Nama</option>
                 </select>
 
                 <input type="text" name="cari_mahasiswa" value=""/>
-                <input type="submit" name="button" value="cari">
+                <input type="submit" name="button" value="Cari">
             </form>
         </div>
 
@@ -87,3 +91,8 @@
     </div>   
 </body>
 </html>
+<?php
+    } else {
+        header("location:../akademik/page/admin/form.php");
+    }
+?>
