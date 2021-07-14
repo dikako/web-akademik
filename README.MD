@@ -1,5 +1,10 @@
 ## Demo Tugas Kuliah Pemrograman Lanjut
 
+### UAS
+https://user-images.githubusercontent.com/49613928/125611573-d59e58f8-1c58-47e0-ab88-f0fbec3bba14.mp4
+
+
+
 ### Tugas 14
 https://user-images.githubusercontent.com/49613928/123964529-b43f9e00-d9dd-11eb-9f7b-af1519db22f1.mp4
 
